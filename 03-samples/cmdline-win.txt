@@ -1,0 +1,13 @@
+# MeCab 辞書 (NAIST-Jdic) をインストール
+cd \Users\(ユーザー名)\Documents
+"C:\Program Files (x86)\MeCab\bin\mecab-dict-index.exe" -d .\mecab-naist-jdic-0.6.3b-20111013 -o .\mecab-naist-jdic-0.6.3b-20111013 -f EUC -c SJIS
+"C:\Program Files (x86)\MeCab\bin\mecab.exe"
+
+# MeCab を実行する (エリア別)  注: 32bit Windowsは「_(x86)」を消してから貼り付けてください
+"C:\Program Files (x86)\MeCab\bin\mecab.exe" -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 01-外房_テキスト.txt > 01-外房_単語.txt
+"C:\Program Files (x86)\MeCab\bin\mecab.exe" -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 02-西伊豆_テキスト.txt > 02-西伊豆_単語.txt
+"C:\Program Files (x86)\MeCab\bin\mecab.exe" -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 03-南房総_テキスト.txt > 03-南房総_単語.txt
+
+# MeCab を実行する (全エリア)  注: 32bit Windowsは「_(x86)」を消してから貼り付けてください
+"C:\Program Files (x86)\MeCab\bin\mecab.exe" -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 風呂-12_テキスト.txt > 風呂-12.txt_単語.txt
+"C:\Program Files (x86)\MeCab\bin\mecab.exe" -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 風呂-45_テキスト.txt > 風呂-45.txt_単語.txt

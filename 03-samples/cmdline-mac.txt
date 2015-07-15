@@ -1,0 +1,30 @@
+# MeCab のコンパイルとインストール
+cd ~/Downloads
+tar zxvf mecab-0.996.tar.gz
+cd mecab-0.996
+LIBS=-liconv ./configure --with-charset=utf8
+make
+make check
+sudo make install
+
+# MeCab 辞書 (NAIST-Jdic) をインストール
+wget http://osdn.jp/projects/naist-jdic/downloads/53500/mecab-naist-jdic-0.6.3b-20111013.tar.gz
+tar zxvf mecab-naist-jdic-0.6.3b-20111013.tar.gz
+cd  mecab-naist-jdic-0.6.3b-20111013
+LIBS=-liconv ./configure --with-charset=utf8 
+make
+sudo make install
+
+sudo vi /usr/local/etc/mecabrc
+# ;
+# #dicdir = /usr/local/lib/mecab/dic/ipadic
+# dicdir = /usr/local/lib/mecab/dic/naist-jdic
+
+# MeCab を実行する (エリア別)
+mecab -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 01-外房_テキスト.txt > 01-外房_単語.txt
+mecab -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 02-西伊豆_テキスト.txt > 02-西伊豆_単語.txt
+mecab -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 03-南房総_テキスト.txt > 03-南房総_単語.txt
+
+# MeCab を実行する (全エリア)
+mecab -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 風呂-12_テキスト.txt > 風呂-12.txt_単語.txt
+mecab -b 819200 -F"%f[6]\t%f[0]\t%f[1]\n" -U"%m\tUNK\n" -E"EOS\tEOS\n" 風呂-45_テキスト.txt > 風呂-45.txt_単語.txt
