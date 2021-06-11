@@ -9,7 +9,7 @@
 <br>
 <br>
 
-### Optionaly : Entire data (not sampled)
+#### Optionaly : Entire data (not sampled)
 
 | file name | # records | size (zipped) | period |
 | :--- | ---: | ---: | :--- |
@@ -21,4 +21,3 @@
 <br>
 
 Also, download all data from [here](https://drive.google.com/drive/folders/1z9e-h-ZanZ_utQm-cMbqAPwb6nP7DGjM?usp=sharing).
-You can also download all the data from here.
