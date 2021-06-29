@@ -7,7 +7,6 @@
 |[prepare_rakuten_dataset.ipynb](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb) | Pre-process for rakuten dataset |
 |[prepare_covid19_dataset.ipynb](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_covid19_dataset.ipynb) | Pre-process for covid19 dataset |
 
-<br>
 
 ## More sample scripts (not used in the course)
 
