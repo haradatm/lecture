@@ -1,4 +1,4 @@
-# Sample code for [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peaceiris/emoji-ime-dictionary/blob/master/generate.ipynb) [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)]('')
+# Sample code for [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/)
 
 
 ## Scripts for making datasets (not used in the course)
