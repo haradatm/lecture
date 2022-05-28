@@ -1,4 +1,4 @@
-# Sample code for [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)]()
+# Sample code for [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]('') [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)]('')
 
 
 ## Scripts for making datasets (not used in the course)
