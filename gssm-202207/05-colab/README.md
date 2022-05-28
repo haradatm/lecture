@@ -1,4 +1,4 @@
-# Sample code for [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)]()
+# Sample code for [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)]()
 
 
 ## Scripts for making datasets (not used in the course)
@@ -6,13 +6,19 @@
 | file name | memo |
 | :--- | :--- |
 |`prepare_rakuten_dataset.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb)
-[![Open In Studio Lab] (https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb) 
+
+[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb)
+
 | Pre-process for rakuten dataset |
 
 |`prepare_covid19_dataset.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_covid19_dataset.ipynb)
-[![Open In Studio Lab] (https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_covid19_dataset.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_covid19_dataset.ipynb) 
+
+[![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202107/05-colab/prepare_datasets/prepare_covid19_dataset.ipynb)
+
 | Pre-process for covid19 dataset |
 
 
