@@ -12,7 +12,6 @@
 
 | file name | memo |
 | :--- | :--- |
-| [scraping_example.ipynb](https://github.com/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/scraping_example.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/scraping_example.ipynb) [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/scraping_example.ipynb) | A toy example of **web scraping** (using the data in the course) |
 | [prepare_rakuten_dataset.ipynb](https://github.com/haradatm/lecture/blob/master/gssm-202207/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202207/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb) [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202207/05-colab/prepare_datasets/prepare_rakuten_dataset.ipynb) | Pre-process for rakuten dataset |
 
 
@@ -20,4 +19,5 @@
 
 | file name | memo |
 | :--- | :--- |
+| [scraping_example.ipynb](https://github.com/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/scraping_example.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/scraping_example.ipynb) [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/scraping_example.ipynb) | A toy example of **web scraping** (using the data in the course) |
 | [rakuten_example.ipynb](https://github.com/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/rakuten_example.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/rakuten_example.ipynb) [![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/haradatm/lecture/blob/master/gssm-202207/05-colab/fetch_and_analysis/rakuten_example.ipynb) | A toy example of rakuten dataset **analysis** (using the data in the course) |
